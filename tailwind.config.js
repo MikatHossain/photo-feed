@@ -7,10 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container:{
+        center:true,
+        padding:{
+          DEFAULT:"2rem"
+        }
       },
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+      }
     },
   },
   plugins: [],
